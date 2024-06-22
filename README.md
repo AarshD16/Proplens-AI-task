@@ -1,6 +1,6 @@
 # Proplens - Real Estate Analysis
 
-Proplens is a Python-based GUI application that helps users analyze and compare real estate projects in a specific location. The application fetches details about nearby real estate projects, scrapes additional information from the web, and uses a language model to generate a detailed comparison of selected projects.
+It is a Python-based GUI application that helps users analyze and compare real estate projects in a specific location. The application fetches details about nearby real estate projects, scrapes additional information from the web, and uses a language model to generate a detailed comparison of selected projects.
 
 ## Features
 
@@ -95,9 +95,6 @@ To fine-tune the model, follow these steps:
     - **Local Processing**: Perform initial data processing and filtering locally before making API calls.
     - **Edge Computing**: Use edge computing resources to offload some processing tasks.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
@@ -107,9 +104,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request.
 
-## Contact
 
-If you have any questions or feedback, please open an issue or reach out to `your.email@example.com`.
 
 ---
 
@@ -131,5 +126,3 @@ A: The `requests` library is used to fetch web pages, and `BeautifulSoup` is use
 A: The map is generated using the `folium` library. It marks the location of the target place and nearby real estate projects. The map is saved to an HTML file, which is then opened in the user's default web browser.
 
 ---
-
-Enjoy using Proplens!
