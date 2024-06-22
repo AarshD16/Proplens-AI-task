@@ -1,0 +1,12 @@
+tkinter
+requests
+beautifulsoup4
+folium
+transformers
+torch
+numpy
+flask
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
