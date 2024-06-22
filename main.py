@@ -15,7 +15,7 @@ import torch
 GOOGLE_API_KEY = 'YOUR API KEY'
 
 # Initialize the Hugging Face model and tokenizer
-model_name = "google/flan-t5-small"  # You can choose a different model here
+model_name = "google/flan-t5-small" 
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 summarization_pipeline = pipeline("summarization", model=model, tokenizer=tokenizer)
@@ -64,7 +64,7 @@ def web_scrape_information(place):
     response = requests.get(url, headers=headers)
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    # Scraping logic here - this is a simplified example and might need adjustment
+  
     information = {
         'safety': 'N/A',
         'population': 'N/A',
@@ -73,11 +73,6 @@ def web_scrape_information(place):
         'avg_rent': 'N/A',
         'avg_buy_price': 'N/A'
     }
-
-    # Scrape the information (the exact implementation will depend on the structure of the webpage)
-    # For example:
-    # safety_info = soup.find('div', {'class': 'safety-class'}).text
-    # information['safety'] = safety_info if safety_info else 'N/A'
 
     # Returning mock data for demonstration
     information = {
