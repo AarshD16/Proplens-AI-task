@@ -12,7 +12,7 @@ from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer
 import torch
 
 # Set your API keys
-GOOGLE_API_KEY = 'AIzaSyAAneZq1KBvzGxh1cVrDMagbdcH84_RDmA'
+GOOGLE_API_KEY = 'YOUR API KEY'
 
 # Initialize the Hugging Face model and tokenizer
 model_name = "google/flan-t5-small"  # You can choose a different model here
